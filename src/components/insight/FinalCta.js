@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FinalCta() {
   return (
     <section className="relative overflow-hidden bg-ink py-24 text-paper sm:py-28">
@@ -39,20 +41,20 @@ export default function FinalCta() {
 
             {/* CTA */}
             <div className="mt-12 flex flex-col gap-5 sm:flex-row sm:items-center">
-              <button className="inline-flex w-full items-center justify-center sm:w-auto rounded-xl bg-signal px-8 py-4 text-sm font-semibold text-paper transition-all duration-300 hover:bg-deepSignal hover:shadow-soft cursor-pointer">
+              <Link href="/service" className="inline-flex w-full items-center justify-center sm:w-auto rounded-xl bg-signal px-8 py-4 text-sm font-semibold text-paper transition-all duration-300 hover:bg-deepSignal hover:shadow-soft cursor-pointer">
                 Start a Mandate
-              </button>
+              </Link>
 
-              <button className="inline-flex w-full items-center justify-center sm:w-auto rounded-xl border border-paper/15 bg-paper/5 px-8 py-4 text-sm font-semibold text-paper transition-all duration-300 hover:border-paper/30 hover:bg-paper/10 cursor-pointer">
+              <Link href="/contact" className="inline-flex w-full items-center justify-center sm:w-auto rounded-xl border border-paper/15 bg-paper/5 px-8 py-4 text-sm font-semibold text-paper transition-all duration-300 hover:border-paper/30 hover:bg-paper/10 cursor-pointer">
                 Speak to a Legal Partner
-              </button>
+              </Link>
             </div>
 
             {/* Free Call */}
             <div className="mt-10">
-              <button className="text-sm font-semibold text-signal transition hover:translate-x-1 cursor-pointer">
+              <Link href="/contact" className="text-sm font-semibold text-signal transition hover:translate-x-1 cursor-pointer">
                 Book a 30-Minute Scoping Call [FREE] →
-              </button>
+              </Link>
             </div>
           </div>
         </div>

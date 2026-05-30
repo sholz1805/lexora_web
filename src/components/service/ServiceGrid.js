@@ -6,7 +6,7 @@ export default function ServicesGrid() {
   return (
     <section className="bg-surface py-20 sm:py-24">
       <div className="mx-auto max-w-container space-y-10 px-6 lg:px-12">
-        {/* Header */}
+      
         <div className="max-w-4xl">
           <p className="text-sm font-semibold uppercase tracking-[0.28em] text-signal">
             What We Execute
@@ -19,7 +19,7 @@ export default function ServicesGrid() {
           </h2>
         </div>
 
-        {/* Services */}
+      
         <div className="space-y-8">
           {services.map((service, index) => (
             <ServiceCard

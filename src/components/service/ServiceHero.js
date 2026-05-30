@@ -20,7 +20,7 @@ export default function ServiceHero() {
 
   return (
     <section className="relative overflow-hidden bg-ink text-paper">
-      {/* Background */}
+      
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -28,18 +28,16 @@ export default function ServiceHero() {
         }}
       />
 
-      {/* Overlay */}
+   
       <div className="absolute inset-0 bg-ink/85" />
 
-      {/* Gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/30" />
 
-      {/* Glow */}
       <div className="absolute -left-40 top-20 h-[420px] w-[420px] rounded-full bg-signal/10 blur-3xl" />
 
       <div className="relative mx-auto flex min-h-[88vh] max-w-container items-center px-6 py-24 lg:px-12">
         <div className="max-w-5xl">
-          {/* Dynamic Label */}
+          
           <div className="mb-8 h-[44px] overflow-hidden">
             {serviceHeroContent.map((item, index) => (
               <ServiceHeroLabel
@@ -50,7 +48,7 @@ export default function ServiceHero() {
             ))}
           </div>
 
-          {/* Headline */}
+          
           <div className="space-y-2">
             <h1 className="font-display text-5xl leading-[1.02] tracking-tight text-paper sm:text-6xl lg:text-7xl">
               What We Execute

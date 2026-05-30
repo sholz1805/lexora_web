@@ -27,6 +27,7 @@ export const services = [
       "Fixed-scope mandate or phased licensing programme. Transparent milestone-based billing.",
 
     cta: "Start a Licensing Mandate",
+    ctaLink: "/contact",
   },
 
   {
@@ -54,6 +55,7 @@ export const services = [
       "Monthly retainer (compliance-as-a-service). Scoped by regulatory complexity and jurisdiction count.",
 
     cta: "Subscribe for Lexora’s CAAS",
+    ctaLink: "/contact",
   },
 
   {
@@ -80,6 +82,7 @@ export const services = [
       "Contingency-plus or fixed-scope mandate. 48-hour response guarantee.",
 
     cta: "Initiate an Investigation",
+    ctaLink: "/contact",
   },
 
   {
@@ -106,6 +109,7 @@ export const services = [
       "Fixed-fee transaction mandate or phased advisory retainer.",
 
     cta: "Request a Proposal",
+    ctaLink: "/contact",
   },
 
   {
@@ -132,5 +136,6 @@ export const services = [
       "Monthly retainer. Essential / Growth / Enterprise tiers.",
 
     cta: "Engage Lexora as your Legal Partner",
+    ctaLink: "/contact",
   },
 ];

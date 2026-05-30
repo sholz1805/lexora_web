@@ -2,7 +2,7 @@ import { insights } from "@/components/insight/insightData";
 import InsightPostLayout from "@/components/insight/InsightPostLayout";
 
 export default async function InsightPostPage({ params }) {
-  // Next.js may provide `params` as a Promise in some configurations.
+
   const resolvedParams = await params;
 
   const article = insights.find(
