@@ -1,5 +1,6 @@
 import { insights } from "@/components/insight/insightData";
 import InsightPostLayout from "@/components/insight/InsightPostLayout";
+import { notFound } from "next/navigation";
 
 export default async function InsightPostPage({ params }) {
 
@@ -8,6 +9,10 @@ export default async function InsightPostPage({ params }) {
   const article = insights.find(
     (item) => item.slug === resolvedParams.slug
   );
+  
+if (!article) {
+  notFound();
+}
 
   if (!article) {
     return (
