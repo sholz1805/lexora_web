@@ -1,1 +1,1 @@
-Lexora LLP Website
+Lexora Website

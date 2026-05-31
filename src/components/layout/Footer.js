@@ -20,7 +20,7 @@ export default function Footer() {
 <div className="flex items-center">
   <Image
     src="/assets/LexoraLogoWhite.png"
-    alt="Lexora LLP"
+    alt="Lexora"
     width={200}
     height={40}
     className="h-20 w-auto object-contain"
@@ -160,7 +160,7 @@ export default function Footer() {
         {/* BOTTOM */}
         <div className="flex flex-col gap-4 pt-8 text-sm text-paper/45 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {new Date().getFullYear()} Lexora LLP. All rights
+            © {new Date().getFullYear()} Lexora. All rights
             reserved.
           </p>
 

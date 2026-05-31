@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Lexora LLP",
+  title: "Lexora",
   description: "Legal operations and compliance for regulated businesses in Africa.",
   icons: [
     { rel: "icon", url: "/favicon.svg" },

@@ -26,7 +26,7 @@ export default function Navbar() {
             <Image src="/assets/LexoraLogo.png" alt="Lexora logo" fill sizes="200px" className="object-contain" />
           </div>
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.3em]">Lexora LLP</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.3em]">Lexora</p>
           </div>
         </Link>
 
