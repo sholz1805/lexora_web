@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@keyframes logo-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-logo-scroll {
+  animation: logo-scroll 30s linear infinite;
+}
+
+.animate-logo-scroll:hover {
+  animation-play-state: paused;
+}
+
+
 /* @import "tailwindcss"; */
 
 /* :root {
