@@ -45,7 +45,7 @@ export default function ClientPartners() {
                   <Image
                     src={logo}
                     alt="Client Logo"
-                    className="max-h-16 w-auto object-contain grayscale transition duration-300 hover:grayscale-0"
+                    className="max-h-16 w-auto object-contain transition duration-300 hover:grayscale-0"
                   />
                 </div>
               ))}

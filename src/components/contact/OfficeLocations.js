@@ -1,20 +1,20 @@
 const offices = [
   {
-    city: "Lagos",
-    address:
-      "Commercial advisory and regulatory coordination hub.",
+    location: "Nigeria",
+    details:
+      "Deep local expertise. Practical legal solutions.",
   },
 
   {
-    city: "Abuja",
-    address:
-      "Policy, licensing and federal regulatory engagement.",
+    location: "Africa",
+    details:
+      "Strategic legal advisory for organisations expanding, operating, and investing across African markets. ",
   },
 
   {
-    city: "Cross-Border",
-    address:
-      "Strategic international partnerships and recovery support.",
+    location: "Cross-Border",
+    details:
+      "Legal expertise for a connected world, as we support businesses beyond geographic boundaries.",
   },
 ];
 
@@ -22,20 +22,21 @@ export default function OfficeLocations() {
   return (
     <section className="bg-surface py-20 sm:py-24">
       <div className="mx-auto max-w-container px-6 lg:px-12">
-        {/* Header */}
+     
         <div className="mb-12 max-w-3xl">
           <p className="text-sm font-semibold uppercase tracking-[0.28em] text-signal">
             Presence
           </p>
 
           <h2 className="mt-4 font-display text-4xl leading-tight tracking-tight text-ink sm:text-5xl">
-            Positioned Where
+            {/* Positioned Where
             <br />
-            Regulatory Decisions Happen.
+            Regulatory Decisions Happen. */}
+            Virtual. Responsive. Borderless.
           </h2>
         </div>
 
-        {/* Grid */}
+    
         <div className="grid gap-6 lg:grid-cols-3">
           {offices.map((office, index) => (
             <article
@@ -47,11 +48,11 @@ export default function OfficeLocations() {
               </span>
 
               <h3 className="mt-6 font-display text-3xl tracking-tight text-ink">
-                {office.city}
+                {office.location}
               </h3>
 
-              <p className="mt-5 text-base leading-8 text-ink/70">
-                {office.address}
+              <p className="mt-5 text-base leading-6 text-ink/70">
+                {office.details}
               </p>
             </article>
           ))}

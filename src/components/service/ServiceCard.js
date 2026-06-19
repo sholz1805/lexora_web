@@ -9,6 +9,7 @@ export default function ServiceCard({ service, reverse }) {
 
   return (
     <article
+      id={service.id}
       className={`grid overflow-hidden rounded-[2rem] border border-muted bg-paper shadow-soft lg:grid-cols-2 ${
         reverse ? "lg:[&>*:first-child]:order-2" : ""
       }`}

@@ -3,12 +3,12 @@ import ContactForm from "./ContactForm";
 const contactDetails = [
   {
     title: "Email",
-    value: "mandates@lexora.africa",
+    value: "info@lexora.africa",
   },
 
   {
     title: "Phone",
-    value: "+234 (0) 000 000 0000",
+    value: "+234 816 087 4826",
   },
 
   {
