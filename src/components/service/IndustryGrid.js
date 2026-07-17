@@ -112,7 +112,7 @@ export default function IndustryGrid() {
                         {industry.points.map((point, idx) => (
                           <li
                             key={idx}
-                            className="border-b border-paper/10 pb-3 text-sm leading-6"
+                            className="border-b border-paper/10 pb-6 text-sm leading-6"
                           >
                             {point}
                           </li>
@@ -120,9 +120,7 @@ export default function IndustryGrid() {
                       </ul>
                     </div>
 
-                    <button className="mt-8 inline-flex w-fit items-center gap-2 text-sm font-semibold transition hover:gap-3">
-                      See Our Work →
-                    </button>
+                
                   </div>
                 </div>
               </div>

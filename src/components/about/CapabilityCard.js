@@ -26,7 +26,7 @@ export default function CapabilityCard({ title, description, Icon }) {
 
       <div className="relative z-10 mt-4 h-px w-12 bg-signal/30" />
 
-      <p className="relative z-10 mt-5 text-sm leading-7 text-ink/68">
+      <p className="relative z-10 mt-5 text-sm leading-5 text-ink/68">
         {description}
       </p>
     </article>

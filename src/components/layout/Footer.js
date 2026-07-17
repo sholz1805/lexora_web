@@ -15,13 +15,12 @@ export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-ink text-paper">
 
-      {/* Glow */}
       <div className="absolute left-0 top-0 h-[320px] w-[320px] rounded-full bg-signal/10 blur-3xl" />
       <div className="absolute bottom-0 right-0 h-[280px] w-[280px] rounded-full bg-paper/5 blur-3xl" />
 
       <div className="relative mx-auto max-w-container px-6 pb-10 pt-16 lg:px-12">
 
-        {/* BRAND */}
+       
         <div className="max-w-sm">
           <Image
             src="/assets/LexoraLogoWhite.png"

@@ -40,7 +40,7 @@ export default function HeroStats() {
           <div className="relative z-10 mt-4 h-px w-12 bg-signal/40" />
 
           {/* Text */}
-          <p className="relative z-10 mt-4 text-sm leading-7 text-paper/60">
+          <p className="relative z-10 mt-4 text-sm leading-5 text-paper/60">
             {item.text}
           </p>
         </div>

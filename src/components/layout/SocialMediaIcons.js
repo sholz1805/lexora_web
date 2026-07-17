@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { FaWhatsapp, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
 
-const WHATSAPP_PHONE = "+2348160874826";
+const WHATSAPP_PHONE = "+234 704 812 9448";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_PHONE.replace(/\D/g, "")}`;
 
 export default function SocialMediaIcons() {
@@ -14,7 +14,7 @@ export default function SocialMediaIcons() {
     {
       name: "LinkedIn",
       icon: FaLinkedin,
-      href: "https://linkedin.com/company/lexora-africa",
+      href: "https://www.linkedin.com/company/lexoraafrica-legal/",
       color: "hover:text-blue-400",
     },
     {
@@ -27,7 +27,7 @@ export default function SocialMediaIcons() {
     {
       name: "Instagram",
       icon: FaInstagram,
-      href: "https://instagram.com/lexora.africa",
+      href: "https://www.instagram.com/lexora_africa/",
       color: "hover:text-pink-400",
     },
     {

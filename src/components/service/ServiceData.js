@@ -1,6 +1,8 @@
 import law1 from "@/images/law1.jpg";
-import law2 from "@/images/law2.jpg";
 import law3 from "@/images/law3.jpg";
+import law4 from "@/images/law4.jpg";
+import law5 from "@/images/law5.jpg";
+import law6 from "@/images/law6.jpg";
 
 
 export const services = [
@@ -40,7 +42,7 @@ export const services = [
     tagline:
       "We build and manage compliance architecture that evolves with regulation.",
 
-    image: law2,
+    image: law6,
 
     deliverables: [
       "Compliance framework design and implementation",
@@ -95,7 +97,7 @@ export const services = [
     tagline:
       "Growth-focused legal structuring for investment and expansion.",
 
-    image: law1,
+    image: law4,
 
     deliverables: [
       "Corporate structure design and entity formation",
@@ -122,7 +124,7 @@ export const services = [
     tagline:
       "A dedicated legal team operating inside your business.",
 
-    image: law2,
+    image: law5,
 
     deliverables: [
       "Dedicated legal team assigned to your business",

@@ -8,7 +8,7 @@ const contactDetails = [
 
   {
     title: "Phone",
-    value: "+234 816 087 4826",
+    value: "+234 704 812 9448",
   },
 
   {

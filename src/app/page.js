@@ -5,6 +5,7 @@ import HeroStats from "@/components/home/Hero/HeroStats";
 import WhyChooseLexora from "@/components/home/Hero/WhyChooseLexora";
 import OurApproach from "@/components/home/Hero/OurApproach";
 import ClientPartners from "@/components/home/Hero/ClientPartners";
+import VirtualLawFirmSection from "@/components/home/VirtualLawFirmSection";
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <HeroStats/>
       <WhyChooseLexora/>
       <ClientPartners/>
+      <VirtualLawFirmSection />
       <OurApproach/>
       <HomeFaq />
       <EngageLexora />

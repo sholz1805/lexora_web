@@ -22,7 +22,7 @@ export default function DifferenceCard({
       <div className="relative z-10 mt-5 h-px w-14 bg-signal/30" />
 
       {/* Text */}
-      <p className="relative z-10 mt-6 max-w-sm text-base leading-8 text-ink/70">
+      <p className="relative z-10 mt-6 max-w-sm text-base leading-5 text-ink/70">
         {text}
       </p>
     </article>

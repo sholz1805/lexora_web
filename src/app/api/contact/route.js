@@ -68,5 +68,22 @@ export async function POST(request) {
     html,
   });
 
+  try {
+    await transporter.sendMail({
+      from: EMAIL_FROM,
+      to: CONTACT_EMAIL,
+      replyTo: email,
+      subject,
+      text,
+      html,
+    });
+  } catch (err) {
+    console.error("Email send error:", err?.message || err);
+    return NextResponse.json(
+      { error: "Failed to send message. Please try again later." },
+      { status: 500 }
+    );
+  }
+
   return NextResponse.json({ message: "Message sent." }, { status: 200 });
 }
