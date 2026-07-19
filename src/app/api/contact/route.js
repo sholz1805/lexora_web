@@ -59,15 +59,6 @@ export async function POST(request) {
   </div>`;
   const text = `New contact inquiry from Lexora website\n\nName: ${name}\nCompany: ${company || "N/A"}\nEmail: ${email}\nService area: ${service || "N/A"}\n\nMessage:\n${message}`;
 
-  await transporter.sendMail({
-    from: EMAIL_FROM,
-    to: CONTACT_EMAIL,
-    replyTo: email,
-    subject,
-    text,
-    html,
-  });
-
   try {
     await transporter.sendMail({
       from: EMAIL_FROM,
